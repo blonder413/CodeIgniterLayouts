@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+/* Reset Estilos CSS */
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {
+    /*background-attachment: fixed;background-image: url('../imagenes/tuxNavidad.png');background-position: 30px 30px;background-repeat:no-repeat;*/
+    line-height: 1;
+}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+/* Fin Reset Estilos CSS */
+/* ******************************************************************************************************** */
+/* webkit, opera, IE9 */
+::selection {background: #6B95D3;color: #fff;}
+/* mozilla firefox */
+::-moz-selection {background: #6B95D3;color: #fff;}
+/* ******************************************************************************************************** */
+a, a:visited { color: #0054ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+article { background-color: #FFF; float: left; margin: 0 5px 5px 0; }
+article ul li { list-style: circle; margin-left: 15px; }
+aside { float: left; padding: 10px 0 5px 10px; width: 241px; }
+body { background-color: #ececec; color: #4e4b58; font-family: 'Arimo', sans-serif; font-size: 14px; }
+footer { background-color: #FFF; border: solid 1.4px #CCC; float: left; margin: 0 0 5px 0; padding: 10px; text-align: center; width: 948px; }
+h1 { margin: 15px 0 -15px 0; }
+h1 a, h1 a:visited { color: #000; font-size: 40px; text-decoration: none; }
+h1 a:hover { color: #025; text-decoration: none; }
+h1 span { font-size: 18px; }
+h2 { color: #333; font-size: 20px; font-weight: bold; padding: 8px 0; }
+h2 a, h2 a:visited { color: #333; text-decoration: none; }
+h2 a:hover { color: #025; text-decoration: none; }
+h3 { font-size: 20px; padding: 10px 0; }
+header { background-color: #FFF; border: solid 1.4px #CCC; height: 125px; }
+hr { border-color: #9F9F9F; /*height: 10px;*/  }
+nav { float: left; padding: 40px 10px 0 10px; }
+input { border: 1px solid #BBB; border-radius: 5px 5px 5px 5px; padding: 5px; }
+nav ul li { display: inline-block; margin-left: -4px; }
+nav ul li a, nav ul li a:visited { color: #000; font-size: 17px; padding: 5px 17px; text-decoration: none; }
+nav ul li a:hover { background-color: #67b5ff; color: #fff; text-decoration: none; }
+p { line-height: normal; padding: 5px 0; text-align: justify; }
+textarea { padding: 5px; resize: none; }
+ul li { padding-bottom: 5px; }
+ul li img { vertical-align: middle; }
+#actual { background-color: #025; color: #fff; }
+#busqueda { background-color: #FFF; border: solid 1.4px #CCC; margin: 5px 0; }
+#compartir, #tituloCategoria{margin-bottom:5px;}
+/* Comentarios post */
+#comP { float: left; height: 15px; padding: 15px 15px 15px 0; width: 605px; }
+#contacto { margin-top: 10px; }
+#descarga img { text-align: right; vertical-align: middle; }
+#error { padding-bottom: 10px; }
+#imgDescarga { width: 50px; float: left; }
+#logo { float: left; height: 103px; padding: 10px; width: 103px; }
+#paginacion, #compartir, #tituloCategoria { background-color: #FFF; border: solid 1.4px #CCC; float: left; padding: 10px; text-align: center; width: 697px; }
+#post { float: left; padding: 5px 0; width: 719px; }
+#search { background: url(../imagenes/lupa.png) no-repeat right; width: 210px; }
+#titulo { padding: 10px; text-align: center; }
+#div_total, .total { display: inline-block; }
+#wrapper { margin: 5px auto; width: 970px; }
+.boton { background-color: #025; color: #fff; }
+.boton:hover { background-color: #67b5ff; }
+.centrado { margin-top: 20px; text-align: center; }
+.codigo { background-color: #D2D9DD; color: #000; margin: 10px 0; padding: 5px; }
+.comentar, #contacto { background-color: #FFF; border: solid 1.4px #CCC; float: left; margin-bottom: 5px; padding: 10px; width: 697px; }
+.comentario { padding-top: 10px; }
+.comentario span { font-weight: bold; }
+.comentario .fechaCom { font-size: 12px; font-style: italic; padding: 10px 0; }
+.contenidoPost { border: solid 1px #CCC; float: left; padding: 10px; width: 697px; }
+.fecha { font-style: italic; padding-top: 5px; }
+.imagenes { text-align: center; }
+.logoPost { float: right; height: 70px; width: 70px; }
+.numPag { font-weight: bold; }
+.obligatorio { color: #F00; }
+.publicado { padding-top: 5px; }
+.publicado span, .widget span, #tituloCategoria span, .negrita { font-weight: bold; }
+.textoTitulo { float: left; width: 627px; }
+.tituloPost { background-color: #D8D8D8; border: solid 1px #CCC; float: left; font-size: 13px; padding: 5px 10px; width: 697px; }
+.widget { background-color: #FFF; border: solid 1.4px #CCC; margin-bottom: 5px; padding: 5px; }
+.widget h3 { padding-top: 5px; }
+.widget ul li { padding: 5px 0; }
+.lista { border-bottom: 1px dotted #555; }
+.facebook{width:32px; height:32px; background:url(../imagenes/redes.png) 0 0;}
+.rss{width:32px; height:32px; background:url(../imagenes/redes.png) -33px 0;}
+.googleplus{width:32px; height:32px; background:url(../imagenes/redes.png) -65px 0;}
+.linkedin{width:32px; height:32px; background:url(../imagenes/redes.png) -99px 0;}
+.vimeo{width:32px; height:32px; background:url(../imagenes/redes.png) -131px 0;}
+.youtube{width:32px; height:32px; background:url(../imagenes/redes.png) -163px 0;}
+.asieslinux{width:20px; height: 20px; background:url(../imagenes/WebAmigas.png) 0 0;}
+.cesarcancino{width:20px; height: 20px; background:url(../imagenes/WebAmigas.png) -22px 0;}
+.keyphercom{width:20px; height: 20px; background:url(../imagenes/WebAmigas.png) -46px 0;}
+.oscar{width:20px; height: 20px; background:url(../imagenes/WebAmigas.png) -70px 0;}
