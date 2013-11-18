@@ -15,7 +15,7 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="Mi Web en CI">
 		<link rel="image_src" href="<?php echo base_url('public/img/fresh/photo.png') ?>">
-		<link href="<?php echo base_url('public/img/fresh/favicon.png') ?>" rel="icon" type="image/vnd.microsoft.icon">
+		<link href="<?php echo base_url('public/img/favicon.png') ?>" rel="icon" type="image/vnd.microsoft.icon">
 		
 		<!-- Rel next y prev -->
 			<link rel="prev" href="Home-pagina-3.html">
@@ -27,7 +27,7 @@
 			<header>
 				<div id="logo">
 					<a href="#">
-						<img src="<?php echo base_url('public/img/fresh/logo.png'); ?>" alt="Blonder413" title="Blonder413">
+						<img src="<?php echo base_url('public/img/logo.png'); ?>" alt="Blonder413" title="Blonder413">
 					</a>
 				</div>
 				<div id="titulo">
